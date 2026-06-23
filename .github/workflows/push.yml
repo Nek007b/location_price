@@ -52,4 +52,4 @@ jobs:
 
          docker push \
 
-         ${{ secrets.DOCKERHUB_USERNAME }}/isi_housing:latest
+         ${{ secrets.DOCKERHUB_USERNAME }}/isi_housing:latest .
